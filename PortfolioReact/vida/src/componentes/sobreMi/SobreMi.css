@@ -1,0 +1,41 @@
+.contenedor-sobreMi{
+    display: flex;
+    background-color: white;
+    color:black;
+    height: 70vh;
+    padding: 100px 0 100px 0;
+}
+.sobreMi-desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding: 0 100px 0 100px;
+}
+
+.imagenSobreMi{
+    
+    display: flex;
+    align-self:auto;
+    overflow: hidden;
+    margin-left: 35%;
+}
+
+@media only screen and(max-width: 960px){
+    .contenedor-sobreMi{
+        flex-direction:column;
+        padding: 0;
+        height: auto;
+    }
+   
+    .imagenSobreMi{
+        width: 100%;
+        margin-bottom: 50px;
+        display: flex;
+        align-self:auto;
+        overflow: hidden;
+        margin-left: 30%;
+        
+    }
+    
+}

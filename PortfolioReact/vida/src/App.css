@@ -1,0 +1,7 @@
+/*Ahora quiero quitar los margenes que se me genera en la aplicacion web*/
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Roboto','sans-serif';
+}
